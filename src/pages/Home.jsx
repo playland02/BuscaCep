@@ -16,7 +16,7 @@ function Home() {
 
     function clickSearchCep(e){
         e.preventDefault()
-        navigate('/search?q='+inputCep)
+        navigate('/BuscaCep/search?q='+inputCep)
            
       }
     
