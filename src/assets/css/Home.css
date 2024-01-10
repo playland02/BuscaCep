@@ -1,0 +1,35 @@
+.h1_home{
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    
+}
+
+.container_form{
+    height: 90%;
+}
+
+.form_cep{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form_cep input,.btn_search{
+    margin: 10px;
+    background-color:#000000cd;
+    border:0;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    outline-style: none;
+}
+
+
+.btn_search:hover{
+    background-color: rgb(255, 200, 0);
+}
